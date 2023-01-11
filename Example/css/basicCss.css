@@ -1,0 +1,32 @@
+div {
+    background-color:coral;
+    margin: 12px;
+    border: 5px solid purple;
+    padding: 24px;
+}
+
+.myFirstClass{
+    background-color:aqua;
+    padding: 48px;
+    border: 10px dashed blue;
+}
+
+#MyFirstID{
+    background-color:aquamarine;
+    margin: 10px 24px;
+    border: 4px dotted green
+}
+
+#anotherID{
+    color:deeppink;
+}
+
+.parent div{
+    border: 4px solid red;
+    background-color: green;
+}
+
+.mom div{
+    border: 4px solidd yellow;
+    background-color: blue;
+}
