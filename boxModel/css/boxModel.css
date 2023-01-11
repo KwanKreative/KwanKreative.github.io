@@ -1,5 +1,6 @@
 #main{
-    background-color: plum;
+    background-color:#e6e6fa;
+    padding: 20px;
 }
 
 #intro{
@@ -7,5 +8,21 @@
 }
 
 #content{
-    background-color:blueviolet;
+    background-color:#6a5acd;
+    margin: 10px 0px;
+    padding: 10px;
+    border: 4px solid #042d8b;
+    color:white;
+}
+
+.quote{
+    margin: 20px 20px;
+}
+
+.quoteCitation{
+    margin: 10px 20px;
+}
+
+#footer{
+    margin: 20px;
 }
