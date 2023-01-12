@@ -1,28 +1,51 @@
 #main{
-    float: left;
+    text-align: left;
 }
 
+.head{
+    text-align: right;
+}
 #sidebar {
     background-color: rgb(247, 245, 245);
     border: 0.75px solid black;
     float: right;
-    text-align: center;
-    padding: 10px;
-    width: 300px;
-    height: 400;
+    text-align: left;
+    padding: 5px;
+    width: 250px;
+    font-size: 14px;
 }
 
-#heading {
-    text-align: right;
+#sidebarpicture{
+    width: 200px;
+   
+
 }
 
-#tableofcontents {
-    background-color: rgb(227, 226, 229);
+#tableOfcontents {
+    background-color: #f8f9fa;
     border: 0.75px solid black;
     width: 250px;
-    height: px 0px;
    
 }
 
+#pictureside {
+    background-color: rgb(247, 245, 245);
+    border: 0.75px solid black;
+    float: right;
+    text-align: center;
+    width: 200px;
+    padding: 10px;
+}
+
+#sidefloatright {
+    width: 200px;
+    float: right;
+}
+
+#asideleft {
+    background-color: white;
+    text-align: left;
+    width: 800px;
+}
 
 
