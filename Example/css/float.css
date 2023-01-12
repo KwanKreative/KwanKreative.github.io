@@ -1,0 +1,21 @@
+img {
+    width: 200px;
+    float: right;
+    margin: 24px;
+}
+
+p{
+    background-color: rgb(243, 199, 166);
+}
+
+#floatleft {
+    float: left;
+}
+
+#floatright{
+    float: right;
+}
+
+#clear {
+    clear: both;
+}
