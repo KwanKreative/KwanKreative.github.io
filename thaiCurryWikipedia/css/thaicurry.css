@@ -6,13 +6,13 @@
 .head{
     text-align: right;
 }
+
 #sidebar {
     background-color: rgb(247, 245, 245);
     border: 0.75px solid black;
     float: right;
     text-align: left;
     padding: 5px;
-    
     font-size: 14px;
 }
 
@@ -44,7 +44,7 @@
 
 #asideleft {
     text-align: left;
-    width: 900px;
+    
 }
 
 
