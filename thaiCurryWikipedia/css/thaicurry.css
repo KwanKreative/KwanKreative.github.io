@@ -1,5 +1,6 @@
 #main{
     text-align: left;
+    float: left;
 }
 
 .head{
@@ -11,13 +12,12 @@
     float: right;
     text-align: left;
     padding: 5px;
-    width: 250px;
+    
     font-size: 14px;
 }
 
 #sidebarpicture{
     width: 200px;
-   
 
 }
 
