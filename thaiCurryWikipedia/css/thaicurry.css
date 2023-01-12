@@ -40,6 +40,7 @@
 #sidefloatright {
     width: 200px;
     float: right;
+    text-align: left;
 }
 
 #asideleft {
