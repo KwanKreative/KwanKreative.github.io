@@ -49,15 +49,21 @@
 }
 
 #gallery{
-    width: 50%;
+    width: 200px;
     
 }
 
 #displayline{
     display: inline-block;
+    width; 200px;
+    height: 150px;
+    padding: 5px;
     margin: 2px;
+    
+
 }
 
 .captioncenter{
     text-align:center;
+    width: 200px;
 }
