@@ -48,4 +48,16 @@
     
 }
 
+#gallery{
+    width: 50%;
+    
+}
 
+#displayline{
+    display: inline-block;
+    margin: 2px;
+}
+
+.captioncenter{
+    text-align:center;
+}
