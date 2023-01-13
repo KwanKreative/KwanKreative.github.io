@@ -4,6 +4,11 @@
 
 #heading{
     font-family: Georgia, 'Times New Roman', Times, serif
+    
+}
+
+.marginblock{
+    margin-block: 0.75px;
 }
 
 #main{
@@ -28,11 +33,11 @@
     text-align: left;
     padding: 5px;
     font-size: 14px;
-    width: 275px;
+    width: 300px;
 }
 
 #sidebarpicture{
-    width: 200px;
+    width: 250px;
 
 }
 
@@ -48,12 +53,12 @@
     border: 0.75px solid black;
     float: right;
     text-align: center;
-    width: 200px;
+    width: 250px;
     padding: 5px;
 }
 
 #sidefloatright {
-    width: 200px;
+    width: 250px;
     float: right;
     text-align: left;
 }
@@ -83,8 +88,16 @@
     font-size: 14px;
 }
 
+.caption {
+    text-align: left;
+}
+
 .name{
     font-style: italic;
+    color: darkblue;
+}
+
+.namecolor{
     color: darkblue;
 }
 
