@@ -1,10 +1,24 @@
+.font{
+    font-family: sans-serif;
+}
+
+#heading{
+    font-family: Georgia, 'Times New Roman', Times, serif
+}
+
 #main{
     text-align: left;
     float: left;
+    margin: 20px 20px;
 }
 
 .head{
     text-align: right;
+    margin: 20px;
+}
+
+.big{
+    line-height: 1.5;
 }
 
 #sidebar {
@@ -14,6 +28,7 @@
     text-align: left;
     padding: 5px;
     font-size: 14px;
+    width: 275px;
 }
 
 #sidebarpicture{
@@ -25,16 +40,16 @@
     background-color: #f8f9fa;
     border: 0.75px solid black;
     width: 250px;
+    margin: 20px 20px;
    
 }
 
 #pictureside {
-    background-color: rgb(247, 245, 245);
     border: 0.75px solid black;
     float: right;
     text-align: center;
     width: 200px;
-    padding: 10px;
+    padding: 5px;
 }
 
 #sidefloatright {
@@ -45,11 +60,13 @@
 
 #asideleft {
     text-align: left;
-    
+    margin: 20px 20px;
+    line-height: 1.5;
 }
 
 #gallery{
-    width: 200px;
+    height: 200px;
+    width: 200;
     
 }
 
@@ -66,4 +83,13 @@
 .captioncenter{
     text-align:center;
     width: 200px;
+}
+
+.name{
+    font-style: italic;
+    color: darkblue;
+}
+
+.topic{
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }
