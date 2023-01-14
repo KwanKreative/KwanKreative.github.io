@@ -6,6 +6,16 @@ main {
 nav a {
     color: white;
 }
+/* pseudo-class */
+a:hover {
+    text-decoration: none;
+
+}
+
+li.active a {
+    font-size: 180%;
+    color:#65ffd3;
+}
 
 nav {
     background-color:#21b2aa;
