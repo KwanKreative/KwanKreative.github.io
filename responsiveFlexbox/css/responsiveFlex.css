@@ -18,9 +18,19 @@ li a {
 
 nav {
     background-color: #f0f8ff;
-    text-align: center 
 }
 
 #home {
     margin-right: auto;
+}
+
+@media screen and (max-width: 768px) {
+    body {
+        background-color: rgb(244, 236, 251);
+    }
+
+    ul {
+        flex-direction: column;
+    }
+
 }
