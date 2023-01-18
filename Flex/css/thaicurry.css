@@ -111,15 +111,16 @@
     margin: 12px;
 }
 
-.sidebyside span: first-child {
+.sidebyside span:first-child {
     font-weight: bold;
     width: 150px;
 }
 
-/* .sidebyside span: nth-child(2) {
-    text-align:right;
+.sidebyside span:nth-child(2) {
+    text-align:left;
     width: 150px;
-} */ 
+    color: darkblue;
+} 
 
 .sidebyside span {
     text-align: left;
