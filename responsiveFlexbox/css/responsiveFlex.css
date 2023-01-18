@@ -1,3 +1,29 @@
+button {
+    background-color: purple;
+    color: white;
+    font-weight:bold;
+    padding: 7px;
+
+}
+
+figure {
+    float: left;
+
+}
+
+figure img {
+    width: 200px;
+}
+
+
+caption{
+    text-align: center;
+}
+li.active a {
+    font-size: 140%;
+    background-color: orange;
+    padding: 10px;
+}
 
 ul {
     display: flex;
@@ -16,8 +42,24 @@ li a {
     text-decoration: none;
 }
 
+li Button {
+    margin: 10px;
+}
+
+main ul {
+    justify-content: center;
+}
+
+main { 
+    margin: 30px;
+}
+
+main h1 {
+    text-align: center;
+}
+
 nav {
-    background-color: #f0f8ff;
+    background-color: rgb(23, 114, 112);
 }
 
 #home {
