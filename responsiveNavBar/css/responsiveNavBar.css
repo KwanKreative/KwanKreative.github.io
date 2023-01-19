@@ -1,16 +1,40 @@
+body{
+    padding: 20px;
+    margin: 20px;
+}
+
+.button {
+    background-color: #FAAB75;
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+    text-align: center;
+    padding:10px;
+   
+}
 nav img {
     height: 80px;
 }
 
 main img {
-    height:400px;
-    width:860px;
+    width:100%;
+}
+
+main h1 {
+    color:#7d2e01;
+    text-align: center;
+}
+
+main {
+    margin: 20px;
+    padding: 10px;
 }
 
 nav a {
     text-decoration: none;
     color: rgb(65, 21, 21);
-
+    text-align: center;
+    padding: 10px;
 }
 
 nav > ul {
@@ -23,6 +47,7 @@ nav > ul {
 
 #home {
     margin-right: auto;
+    display: flex;
 }
 /* nav > ul > li a:hover {} */
 nav > ul > li:hover {
@@ -56,4 +81,12 @@ nav > ul > li {
 .dropdown ul li{
     background-color: #FAAB75;
     padding: 10px;
+}
+
+gallery img {
+    width: 200px;
+    height: 250px;
+    display:inline;
+    padding: 10px;
+    margin: 10px;
 }
