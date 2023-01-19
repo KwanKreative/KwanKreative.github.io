@@ -83,6 +83,7 @@ nav > ul > li {
     padding: 10px;
 }
 
+
 gallery img {
     width: 200px;
     height: 250px;
@@ -90,3 +91,8 @@ gallery img {
     padding: 10px;
     margin: 10px;
 }
+gallery {
+    display:inline;
+    display: flex;
+}
+
