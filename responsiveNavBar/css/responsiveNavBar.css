@@ -1,10 +1,21 @@
+nav img {
+    height: 80px;
+}
+main img {
+    height:400px;
+    width:860px;
+}
+nav {
+    background-color: rgb(52, 9, 3);
+}
 nav a {
     text-decoration: none;
     color: rgb(255, 255, 255);
+
 }
 nav > ul {
     display: flex;
-    justify-content: center;
+    justify-content: flex-end;
     list-style-type: none;
     padding: 0px;
 }
@@ -16,7 +27,7 @@ nav > ul > li:hover {
 
 
 nav > ul > li {
-    background-color:rgb(121, 20, 7);
+    background-color:rgb(52, 9, 3);
     padding: 12px;
 }
 
