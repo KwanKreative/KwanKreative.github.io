@@ -59,8 +59,11 @@ nav img {
     height: 80px;
 }
 
-#toppic {
+header #toppic {
     width:100%;
+    max-height: 500px;
+    object-fit: cover;
+    object-position: 50% 25%;
 }
 
 main {
@@ -134,8 +137,8 @@ nav > ul > li {
 .textAndimage {
     align-items: center;
     display: flex;
-    align-items: center;
-    margin: 24px;
+    margin: 24px auto;
+    max-width: 800px;
 }
 
 .textAndimage .imageBlock{
