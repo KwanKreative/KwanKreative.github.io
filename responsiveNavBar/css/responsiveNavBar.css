@@ -54,13 +54,6 @@ body{
     background-color: rgb(251, 230, 213);
 }
 
-gallery img {
-    width: 300px;
-    height: 350px;
-    display:inline-block;
-    padding: 10px;
-    margin: 10px;
-}
 
 nav img {
     height: 80px;
@@ -70,11 +63,15 @@ nav img {
     width:100%;
 }
 
+main {
+    padding: 20px;
+    margin: 20px;
+}
 main .reviewtop {
     width: 100%;
 }
 
-main > asideright {
+main > .asideright {
     padding: 20px;
     margin: 20px;
 }
@@ -155,19 +152,24 @@ nav > ul > li {
     border-radius: 25px;
 }
 
-main .jew {
+main .blockpic {
     display: flex;
     flex-direction: column;
+    margin: 10px;
 }
 
-main .jew img {
+main .blockpic img {
     width: 100%;
     margin: 20px;
-    padding: 20px;
 }
 .product {
     display: flex;
     text-align: center;
+}
+
+main .imgcaption {
+    text-align: center;
+    display: inline-block;
 }
 
 @media screen and (max-width: 768px) {
