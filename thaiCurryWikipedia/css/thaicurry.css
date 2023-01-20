@@ -8,11 +8,7 @@
 }
 #heading{
     font-family: Georgia, 'Times New Roman', Times, serif
-    
-}
 
-.marginblock{
-    margin-block: 0.75px;
 }
 
 #main{
@@ -30,10 +26,10 @@
     line-height: 1.5;
 }
 
-div #sidebar {
+div #sideBar {
     text-align: center;
 }
-#sidebar {
+#sideBar {
     background-color: rgb(247, 245, 245);
     border: 0.75px solid black;
     float: right;
@@ -83,11 +79,15 @@ div #sidebar {
 #displayline{
     align-items: center;
     display: inline-block;
+    flex-direction: column;
     height: 200px;
     padding: 5px;
     margin: 2px;
 }
 
+.alldisplay {
+    display: inline-block;
+}
 .captioncenter{
     text-align:center;
     width: 200px;
@@ -116,3 +116,20 @@ div #sidebar {
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
+.sideBySide {
+    display:flex;
+    margin: 8px;
+}
+
+.sideBySide span {
+    text-align: left;
+}
+
+.sideBySide span:first-child{
+    font-weight: bold;
+    width: 100px;
+}
+
+.sideBySide span:last-child{
+    color: darkblue;
+}
