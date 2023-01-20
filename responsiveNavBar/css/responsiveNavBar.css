@@ -161,9 +161,11 @@ main .jew {
 }
 
 main .jew img {
-    width: 30%;
+    width: 100%;
+    margin: 20px;
+    padding: 20px;
 }
-main div .product {
+.product {
     display: flex;
     text-align: center;
 }
