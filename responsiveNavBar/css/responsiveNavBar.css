@@ -13,6 +13,8 @@ body{
    
 }
 
+
+
 .dropdown{
     position: relative;
 }
@@ -67,7 +69,7 @@ nav img {
     height: 80px;
 }
 
-main img {
+#toppic {
     width:100%;
 }
 
@@ -99,6 +101,7 @@ nav > ul {
 
 #home {
     margin-right: auto;
+    /* margin-right: inherit; */
     display: flex;
 }
 /* nav > ul > li a:hover {} */
@@ -112,21 +115,63 @@ nav > ul > li {
     transition: background-color 0.5s;
 }
 
-main product img {
-    padding: 10px;
-    width: 200px;
-    padding: 10px;
+.textAndimage {
+    align-items: center;
+    display: flex;
+    align-items: center;
+    margin: 24px;
 }
 
-main product {
-    display:inline-block;
-    justify-content; center;
-
-   
+.textAndimage .imageBlock{
+    flex: 1;
 }
 
-main imgcaption {
+.textAndimage .textBlock {
+    flex: 2;
+    margin: 10px;
+}
+
+.textAndimage .imageBlock img {
+    width: 100%;
+    border-radius: 25px;
+}
+
+main .jew {
+    display: flex;
+    flex-direction: column;
+}
+
+main.product {
+    display: flex;
     text-align: center;
-    width: 200px;
-   
+}
+
+@media screen and (max-width: 768px) {
+    nav > ul {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .dropdown:hover ul{
+        opacity: 0;
+        visibility: hidden;
+    }
+
+    #home {
+        margin-right: inherit;
+    }
+
+    .textAndimage {
+        flex-direction: column;
+    }
+
+    .imageBlock,
+    .textBlock {
+        order:2;
+    }
+
+    .textAndimage .imageBlock:last-child{
+        order: 1;
+    }
+
 }
