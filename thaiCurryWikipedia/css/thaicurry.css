@@ -3,6 +3,9 @@
     padding: 20px;
 }
 
+#align {
+    text-align: center;
+}
 #heading{
     font-family: Georgia, 'Times New Roman', Times, serif
     
@@ -78,6 +81,7 @@ div #sidebar {
 }
 
 #displayline{
+    align-items: center;
     display: inline-block;
     height: 200px;
     padding: 5px;
@@ -102,6 +106,10 @@ div #sidebar {
 
 .namecolor{
     color: darkblue;
+}
+
+.fontweight {
+    font-weight: bold;
 }
 
 .topic{
