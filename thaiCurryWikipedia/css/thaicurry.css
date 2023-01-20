@@ -122,15 +122,13 @@ div #sideBar {
     margin: 8px;
 }
 
-.sideBySide span {
-    text-align: left;
-}
-
 .sideBySide span:first-child{
     font-weight: bold;
-    width: 100px;
+    width: 300px;
+    text-align: left;
 }
 
 .sideBySide span:last-child{
     color: darkblue;
+    text-align: right;
 }
