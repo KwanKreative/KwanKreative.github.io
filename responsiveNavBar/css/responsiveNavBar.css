@@ -12,54 +12,6 @@ body{
     padding:10px;
    
 }
-nav img {
-    height: 80px;
-}
-
-main img {
-    width:100%;
-}
-
-main h1 {
-    color:#7d2e01;
-    text-align: center;
-}
-
-main {
-    margin: 20px;
-    padding: 30px;
-}
-
-nav a {
-    text-decoration: none;
-    color: rgb(65, 21, 21);
-    text-align: center;
-    padding: 10px;
-}
-
-nav > ul {
-    display: flex;
-    justify-content: flex-end;
-    align-items: center;
-    list-style-type: none;
-    padding: 0px;
-    font-weight: bold;
-}
-
-#home {
-    margin-right: auto;
-    display: flex;
-}
-/* nav > ul > li a:hover {} */
-nav > ul > li:hover {
-    background-color:#7d2e01;
-}
-
-
-nav > ul > li {
-    padding: 12px;
-    transition: background-color 0.5s;
-}
 
 .dropdown{
     position: relative;
@@ -111,3 +63,70 @@ gallery img {
     margin: 10px;
 }
 
+nav img {
+    height: 80px;
+}
+
+main img {
+    width:100%;
+}
+
+main h1 {
+    color:#7d2e01;
+    text-align: center;
+}
+
+main {
+    margin: 20px;
+    padding: 30px;
+}
+
+nav a {
+    text-decoration: none;
+    color: rgb(65, 21, 21);
+    text-align: center;
+    padding: 10px;
+}
+
+nav > ul {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    list-style-type: none;
+    padding: 0px;
+    font-weight: bold;
+}
+
+#home {
+    margin-right: auto;
+    display: flex;
+}
+/* nav > ul > li a:hover {} */
+nav > ul > li:hover {
+    background-color:#7d2e01;
+}
+
+
+nav > ul > li {
+    padding: 12px;
+    transition: background-color 0.5s;
+}
+
+main product img {
+    padding: 10px;
+    width: 200px;
+    padding: 10px;
+}
+
+main product {
+    display:inline-block;
+    justify-content; center;
+
+   
+}
+
+main imgcaption {
+    text-align: center;
+    width: 200px;
+   
+}
