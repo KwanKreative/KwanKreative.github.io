@@ -61,9 +61,9 @@ nav img {
 
 header #toppic {
     width:100%;
-    max-height: 500px;
+    max-height: 300px;
     object-fit: cover;
-    object-position: 50% 25%;
+    object-position: 25% 60%;
 }
 
 main {
