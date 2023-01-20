@@ -73,25 +73,27 @@ div #sideBar {
 
 #gallery{
     height: 200px;
+    text-align: center;
   
 }
 
 #displayline{
     align-items: center;
-    display: inline-block;
+    display: inline-flex;
     flex-direction: column;
     height: 200px;
-    padding: 5px;
-    margin: 2px;
+    padding: 20px;
+    margin: 10px;
 }
 
 .alldisplay {
-    display: inline-block;
+    display:inline-block;
 }
 .captioncenter{
     text-align:center;
-    width: 200px;
+    width: 70%;
     font-size: 14px;
+    margin: 10px;
 }
 
 .caption {
