@@ -74,11 +74,25 @@ main .reviewtop {
     width: 100%;
 }
 
+main > asideright {
+    padding: 20px;
+    margin: 20px;
+}
+main h2 {
+    text-align: center;
+}
 main .rightpic {
     width: 40%;
     float: left;
     padding: 20px;
 }
+
+main .leftpic {
+    width: 40%;
+    float: right;
+    padding: 20px;
+}
+
 main h1 {
     color:#7d2e01;
     text-align: center;
