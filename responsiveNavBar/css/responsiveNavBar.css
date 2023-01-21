@@ -167,16 +167,19 @@ main .blockpic img {
     width: 100%;
     border-radius: 24px;
     height: 300px;
-    object-fit: cover;
+    /* object-fit: cover; */
     margin: 20px;
 }
+
+
 .product {
     display: flex;
     text-align: center;
-    text-align: center;
 }
 
-
+div .imacaption{
+    text-align: center;
+}
 main .imgcaption {
     text-align: center;
     display: inline-block;
