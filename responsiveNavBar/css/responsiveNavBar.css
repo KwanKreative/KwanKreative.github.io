@@ -150,7 +150,6 @@ main .blockpic {
     display: flex;
     flex-direction: column;
     margin: 10px;
-    align-items: center;
 }
 
 main .blockpic img {
@@ -164,6 +163,7 @@ main .blockpic img {
 .product {
     display: flex;
     text-align: center;
+    justify-content: center;
 }
 
 div .imacaption{
