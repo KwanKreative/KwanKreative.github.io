@@ -68,7 +68,7 @@ header #toppic {
 }
 
 main {
-    padding: 20px;
+    padding: 50px;
     margin: 20px;
 }
 main .reviewtop {
@@ -173,11 +173,32 @@ main .blockpic img {
 .product {
     display: flex;
     text-align: center;
+    max-height: 200px;
+    text-align: center;
 }
 
 main .imgcaption {
     text-align: center;
     display: inline-block;
+}
+
+footer {
+    background-color: rgb(251, 230, 213);
+    padding: 30px;
+    text-align: center;
+}
+
+footer #home img {
+    width: 150px;
+}
+
+.footericon {
+    display: inline-block;
+    padding: 10px;
+}
+
+.footercopy {
+    padding: 20px;
 }
 
 @media screen and (max-width: 768px) {
