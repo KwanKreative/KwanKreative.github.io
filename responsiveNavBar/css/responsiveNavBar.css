@@ -150,7 +150,7 @@ main .blockpic {
     display: flex;
     flex-direction: column;
     margin: 10px;
-    text-align: center;
+    align-items: center;
 }
 
 main .blockpic img {
