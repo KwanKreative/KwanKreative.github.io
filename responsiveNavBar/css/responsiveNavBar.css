@@ -173,7 +173,6 @@ main .blockpic img {
 .product {
     display: flex;
     text-align: center;
-    max-height: 200px;
     text-align: center;
 }
 
@@ -203,16 +202,15 @@ footer #home img {
     padding: 20px;
 }
 
-div .review {
-    text-align: right;
+.sideBarcomment{
+    padding: 10px;
 }
 .sideBarpic img{
-    width: 300px;
-    padding: 20px;
-}
-
-.sideBarcomment {
-    text-align: left;
+    border-radius: 80px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
 }
 
 @media screen and (max-width: 768px) {
