@@ -203,6 +203,18 @@ footer #home img {
     padding: 20px;
 }
 
+div .review {
+    text-align: right;
+}
+.sideBarpic img{
+    width: 300px;
+    padding: 20px;
+}
+
+.sideBarcomment {
+    text-align: left;
+}
+
 @media screen and (max-width: 768px) {
     nav > ul {
         flex-direction: column;
