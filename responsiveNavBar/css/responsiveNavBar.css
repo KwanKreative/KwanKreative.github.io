@@ -74,25 +74,25 @@ main {
 main .reviewtop {
     width: 100%;
 }
-
+/* 
 main > .asideright {
     padding: 20px;
     margin: 20px;
-}
+} */
 main h2 {
     text-align: center;
 }
-main .rightpic {
+/* main .rightpic {
     width: 40%;
     float: left;
     padding: 20px;
-}
+} */
 
-main .leftpic {
+/* main .leftpic {
     width: 40%;
     float: right;
     padding: 20px;
-}
+} */
 
 main h1 {
     color:#7d2e01;
@@ -177,9 +177,11 @@ main .blockpic img {
     text-align: center;
 }
 
+
 main .imgcaption {
     text-align: center;
     display: inline-block;
+    
 }
 
 footer {
@@ -232,6 +234,6 @@ footer #home img {
     .product {
         flex-direction: column;
         align-items: center;
-
     }
+
 }
