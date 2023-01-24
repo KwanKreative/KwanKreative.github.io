@@ -1,0 +1,55 @@
+table {
+    border: 0.5px solid rgb(222, 102, 102);
+    border-collapse: collapse;
+    padding: 20px;
+    margin: 40px;
+    /* background-image: url(https://www.easylinedrawing.com/wp-content/uploads/2020/10/flower_drawing.png), url(https://www.easylinedrawing.com/wp-content/uploads/2020/10/flower_drawing.png);
+    background-position: center;
+    background-repeat: no-repeat; */
+
+}
+
+
+
+
+thead th:hover {
+    background-color: rgba(225, 139, 178, 0.539);
+}
+
+thead tr:first-child{
+    font-size: 36px;
+    font-weight: bold;
+    background-image: url(https://img1.picmix.com/output/stamp/normal/9/9/4/3/1503499_8efaf.gif);
+    background-position: center;
+}
+
+thead tr:last-child{
+    background-color: rgb(255, 234, 234);
+
+}
+
+tbody tr:nth-child(even){ 
+    background-color: rgba(252, 245, 243, 0.387);
+}
+tbody td {
+    border: 0.3px solid rgb(245, 208, 208);
+    padding: 30px;
+}
+
+tbody td:hover{
+    background-color: pink;
+    
+}
+tbody .love { 
+    background-image: url(https://www.gifcen.com/wp-content/uploads/2022/05/heart-gif.gif);
+    background-position: center;
+
+}
+tr th{
+    padding: 20px;
+}
+
+tr td{
+    text-align: center;
+}
+
