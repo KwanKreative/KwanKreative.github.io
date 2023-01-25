@@ -47,3 +47,13 @@
     width: 30%;
     margin: 12px;
 }
+
+#gallery5 {
+    columns: 3 auto;
+    column-gap: 24px;
+}
+
+#gallery5 img {
+    width: 100%;
+    margin-bottom: 24px;
+}
