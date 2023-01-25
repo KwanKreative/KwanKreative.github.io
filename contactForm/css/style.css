@@ -2,7 +2,7 @@
     box-sizing: border-box;
 }
 body {
-    background-color: rgb(246, 244, 244);
+    background-color: #FAFAFA;
     font-family: sans-serif;
     
 }
@@ -22,7 +22,7 @@ header {
 
 #formContainer {
     background-color: white;
-    border: 2px solid gray;
+    border: 2px solid #DFDFDF;
     grid-area: content;
     padding: 32px;
 
