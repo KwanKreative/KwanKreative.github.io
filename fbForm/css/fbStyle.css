@@ -60,12 +60,12 @@ input[type=text] {
     width: 100%;
 }
 
-#titleBdayPubilicInputs {
+#titleBdayPubilcInputs {
     display: flex;
     margin: 12px;
 }
 
-#titleBdayPubilicInputs > div {
+#titleBdayPubilcInputs > div {
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
@@ -73,7 +73,8 @@ input[type=text] {
     flex: 1;
 }
 
-#titleBdayPubilicInputs select,
-#titleBdayPubilicInputs input[type=date] {
+#titleBdayPubilcInputs select,
+#titleBdayPubilcInputs input[type=date] {
     width:100;
 }
+
