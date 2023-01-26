@@ -41,6 +41,13 @@ form textarea {
     margin-bottom: 16px;
 }
 
+/* textarea[placeholder="Type your message here..."]{
+    color:blueviolet;
+} */
+
+textarea::placeholder {
+    color:blueviolet;
+}
 form input[type=submit] {
     background-color: #308bfa;
     border: 0;
