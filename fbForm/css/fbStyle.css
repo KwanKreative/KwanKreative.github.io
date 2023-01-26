@@ -33,7 +33,7 @@ header img{
     text-align: center;
 }
 
-#form header {
+#formHeader {
     border-bottom: 2px solid #DDDDDD;
 }
 
@@ -58,4 +58,22 @@ input[type=text] {
 #phoneOrEmail,
 #newPassword {
     width: 100%;
+}
+
+#titleBdayPubilicInputs {
+    display: flex;
+    margin: 12px;
+}
+
+#titleBdayPubilicInputs > div {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex: 1;
+}
+
+#titleBdayPubilicInputs select,
+#titleBdayPubilicInputs input[type=date] {
+    width:100;
 }
