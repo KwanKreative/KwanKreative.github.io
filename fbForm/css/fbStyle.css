@@ -1,0 +1,61 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #EEEEEE;
+    font-family: sans-serif;
+}
+
+#formContainer {
+    display: grid;
+    grid-template-columns: 1fr 450px 1fr;
+    grid-template-areas: 
+        ". header ."
+        ". content .";
+}
+
+header {
+    grid-area:header;
+    text-align: center;
+}
+
+header img{
+    height: 50px;
+    margin: 24px;
+}
+
+#formContent {
+    background-color: white;
+    border-radius: 12px;
+    box-shadow: 0px 0px 16px #cccccc;
+    grid-area: content;
+    text-align: center;
+}
+
+#form header {
+    border-bottom: 2px solid #DDDDDD;
+}
+
+input[type=text] {
+    border: 2px solid #DDDDDD;
+    border-radius: 4px;
+    padding: 8px;
+    margin: 4px;
+}
+
+#textInputsContainer {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 12px;
+}
+
+#firstNameInput,
+#lastNameInput {
+    flex: 1;
+}
+
+#phoneOrEmail,
+#newPassword {
+    width: 100%;
+}
