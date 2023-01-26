@@ -60,3 +60,12 @@ form input[type=submit] {
     padding: 16px 24px;
 }
 
+input[type=text],
+input[type=message] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 1px solid rgb(55, 157, 147);
+    border-radius: 4px;
+}
