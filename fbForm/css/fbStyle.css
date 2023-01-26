@@ -71,10 +71,22 @@ input[type=text] {
     justify-content: flex-start;
     align-items: flex-start;
     flex: 1;
+    margin-right: 8px;
 }
 
 #titleBdayPubilcInputs select,
 #titleBdayPubilcInputs input[type=date] {
     width:100;
 }
+
+#titleBdayPubilcInputs > div label {
+    font-size: 12px;
+    font-weight: bold;
+    margin-left: 5px;
+}
+
+#titleBdayPubilcInputs input[type=checkbox] {
+    margin: 16px 0px 16px 8px;
+}
+
 
