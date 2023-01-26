@@ -22,7 +22,7 @@
                 <form>
                     <label>What can we help you with?</label>
                     <select name="questionType">
-                        <option value="" disabled selected>Section what we can help you with?</option>
+                        <option value="" disabled selected>Select what we can help you with?</option>
                         <option value="commission">Commission</option>
                         <option value="carWarranty">What to extend your cars warranty?</option>
                         <option value="websiteDesign">Website Design</option>
@@ -32,11 +32,23 @@
                     <input type="text" name="name">
                     <label>Email</label>
                     <input type="text" name="email">
+                    <label>Confirm Email</label>
+                    <input type="text" name="confirm">
+                    <label>Address</label>
+                    <input type="text" name="address">
+                    <label>Gender</label>
+                    <select name="Gender">
+                        <option value="" disabled selected>Select one </option>
+                        <option value="commission">Male </option>
+                        <option value="commission">Female</option>
+                    </select>
+                
                     <label>Message</label>
                     <textarea name="message" 
                         name="message" 
                         placeholder="Type your message here..."> </textarea>
                     <input type="submit" name="send" value="send">
+                    
                 </form>
 
             </div>
