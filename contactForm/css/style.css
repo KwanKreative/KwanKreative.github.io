@@ -53,11 +53,12 @@ form select  {
 textarea::placeholder {
     color:blueviolet;
 }
-form input[type=submit] {
+form input[type=button] {
     background-color: #0c0c0c;
     border: 0;
     border-radius: 4px;
     color: white;
+    font-size: 20px;
     padding: 16px 24px;
     width: 40%;
 }
@@ -74,9 +75,9 @@ textarea {
 
 input:invalid {
     border-color: rgb(203, 6, 6);
-   background-color: #f4d7d7;
-   box-shadow: 0px 0px 3px;
-   animation: invalidWiggle 1s infinite;
+    background-color: #f4d7d7;
+    box-shadow: 0px 0px 3px;
+    animation: invalidWiggle 1s infinite;
 }
 
 input:valid {
@@ -129,3 +130,16 @@ background-color: aqua; */
 /* 
 from {background-color: red;}
   to {background-color: yellow;} */
+
+
+@media screen and (max-width: 600px) {
+    #gridContainer {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-areas:
+            "header"  
+            "content";
+    }
+
+
+  }

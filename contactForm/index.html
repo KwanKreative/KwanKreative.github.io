@@ -36,7 +36,8 @@
                         name="name"
                         placeholder="Firstname and Lastname"
                         minlength="4"
-                        maxlength="30">
+                        maxlength="30"
+                        required>
                     <label>Gender</label>
                     <select name="Gender">
                         <option value="" disabled selected>Select one </option>
@@ -49,14 +50,16 @@
                         name="email"
                         placeholder="E-mail"
                         minlength="2"
-                        maxlength="30">
+                        maxlength="30"
+                        required>
                     <label>Confirm Email</label>
                     <input 
                         type="email" 
                         name="confirm"
                         placeholder="Confirm E-mail"
                         minlength="2"
-                        maxlength="30">
+                        maxlength="30"
+                        required>
                     <label>Address</label>
                     <input 
                         type="text" 
@@ -71,7 +74,7 @@
                         placeholder="Type your message here..."> 
                     </textarea>
                     <div id="button">
-                    <input type="submit" name="send" value="send">
+                    <input type="button" name="send" value="send">
                     </div>
                     
                 </form>
