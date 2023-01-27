@@ -40,7 +40,7 @@ header img{
  /* This code styles the boxes of inputs */
 input[type=text],
 input[type=date],
-input[type=tel],
+input[type=email],
 input[type=password],
 select,
 #genderInputs > div,
@@ -138,6 +138,6 @@ a  {
 }
 
 input:invalid {
-    background-color: lightpink;
+    background-color: rgb(219, 223, 244);
     border-color: red;
 }
