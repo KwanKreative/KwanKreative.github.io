@@ -41,7 +41,8 @@ header img{
 input[type=text],
 input[type=date],
 select,
-#genderInputs > div {
+#genderInputs > div,
+input[type=submit] {
     border: 2px solid #DDDDDD;
     border-radius: 4px;
     padding: 8px;
@@ -83,7 +84,8 @@ select,
     width:100;
 }
 
-#titleBdayPubilcInputs > div label {
+#titleBdayPubilcInputs > div label,
+#genderRadioButtons > label {
     font-size: 12px;
     font-weight: bold;
     margin-left: 5px;
@@ -108,3 +110,28 @@ select,
     flex: 1;
 }
 
+#formFields p{
+    font-size: 12px;
+    margin: 16px;
+    text-align: left;
+}
+
+input[type=submit] {
+    background-color: #10a515;
+    border: 0;
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    min-width: 175px;
+}
+
+a  {
+    color: #0d77ff;
+    text-decoration: none;
+}
+
+#login {
+    display: block;
+    margin: 24px;
+    
+}
