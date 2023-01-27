@@ -43,6 +43,7 @@ form select  {
     padding: 12px;
     width: 100%;
     margin-bottom: 16px;
+    
 }
 
 /* textarea[placeholder="Type your message here..."]{
@@ -62,12 +63,69 @@ form input[type=submit] {
 }
 
 input[type=text],
-input[type=message] {
+select,
+input[type=email],
+textarea {
+    border-radius: 8px;
     width: 100%;
     padding: 12px 20px;
     margin: 8px 0;
-    box-sizing: border-box;
-    border: 1px solid rgb(55, 157, 147);
-    border-radius: 4px;
 }
 
+input:invalid {
+    border-color: rgb(203, 6, 6);
+   background-color: #f4d7d7;
+   box-shadow: 0px 0px 3px;
+   animation: invalidWiggle 1s infinite;
+}
+
+input:valid {
+    background-color: rgb(248, 250, 251);
+}
+
+#button {
+    text-align: center;
+    animation: buttonWiggle 1s infinite;
+    
+}
+
+@keyframes invalidWiggle {
+    0%,
+    100% {
+        transform: translateX(0px);
+        
+    }
+
+    25% {
+        transform: translateX(-15px);
+    }
+
+    75% {
+        transform: translateX(15px);
+    }
+}
+
+/* Animation 
+transform: translateX(0px) rotate(0deg);
+background-color: aqua; */
+
+@keyframes buttonWiggle {
+    0%,
+    100% {
+        transform: translateX(0px) rotate(0deg);
+        
+    }
+
+    25% {
+        transform: translateX(-15px) rotate(-5deg);
+    }
+
+    75% {
+        transform: translateX(15px)rotate(5deg);
+    }
+}
+
+
+/* 
+from {background-color: red;}
+  to {background-color: yellow;} */

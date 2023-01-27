@@ -31,7 +31,12 @@
                         <option value="adRemoval"> Need a break from the ads</option>
                     </select>
                     <label>Name</label>
-                    <input type="text" name="name">
+                    <input 
+                        type="text" 
+                        name="name"
+                        placeholder="Firstname and Lastname"
+                        minlength="4"
+                        maxlength="30">
                     <label>Gender</label>
                     <select name="Gender">
                         <option value="" disabled selected>Select one </option>
@@ -39,16 +44,35 @@
                         <option value="commission">Female</option>
                     </select>
                     <label>Email</label>
-                    <input type="text" name="email">
+                    <input 
+                        type="email" 
+                        name="email"
+                        placeholder="E-mail"
+                        minlength="2"
+                        maxlength="30">
                     <label>Confirm Email</label>
-                    <input type="text" name="confirm">
+                    <input 
+                        type="email" 
+                        name="confirm"
+                        placeholder="Confirm E-mail"
+                        minlength="2"
+                        maxlength="30">
                     <label>Address</label>
-                    <input type="text" name="address">
+                    <input 
+                        type="text" 
+                        name="address"
+                        placeholder="Address"
+                        minlength="2"
+                        maxlength="100">
                     <label>Message</label>
-                    <textarea type="message" 
+                    <textarea 
+                        type="message" 
                         name="message" 
-                        placeholder="Type your message here..."> </textarea>
+                        placeholder="Type your message here..."> 
+                    </textarea>
+                    <div id="button">
                     <input type="submit" name="send" value="send">
+                    </div>
                     
                 </form>
 
