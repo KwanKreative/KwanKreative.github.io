@@ -138,6 +138,12 @@ a  {
 }
 
 input:invalid {
-    background-color: rgb(219, 223, 244);
-    border-color: red;
+    background-color: rgba(235, 229, 230, 0.627);
+    border-color: rgb(198, 8, 8);
+}
+
+input:valid,
+#phoneOrEmailInput:valid {
+    border-color:rgb(15, 114, 214);
+    background-color: rgb(232, 241, 249);
 }
