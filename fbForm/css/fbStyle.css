@@ -2,6 +2,11 @@
     box-sizing: border-box;
 }
 
+header {
+    background-image: url(https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/8e3ff434559659.56d5b17b2c0fc.gif);
+    background-position: center;
+    background-repeat: no-repeat;
+}
 body{
     background-color: #EEEEEE;
     font-family: sans-serif;
