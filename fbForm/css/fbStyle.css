@@ -40,6 +40,8 @@ header img{
  /* This code styles the boxes of inputs */
 input[type=text],
 input[type=date],
+input[type=tel],
+input[type=password],
 select,
 #genderInputs > div,
 input[type=submit] {
