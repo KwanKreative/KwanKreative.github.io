@@ -90,7 +90,7 @@ input:valid {
     
 }
 
-@keyframes invalidWiggle {
+/* @keyframes invalidWiggle {
     0%,
     100% {
         transform: translateX(0px);
@@ -104,7 +104,7 @@ input:valid {
     75% {
         transform: translateX(15px);
     }
-}
+} */
 
 /* Animation 
 transform: translateX(0px) rotate(0deg);
