@@ -53,8 +53,8 @@ form select  {
 textarea::placeholder {
     color:blueviolet;
 }
-form input[type=button] {
-    background-color: #0c0c0c;
+form button[type=submit] {
+    background-color: #000000;
     border: 0;
     border-radius: 4px;
     color: white;
