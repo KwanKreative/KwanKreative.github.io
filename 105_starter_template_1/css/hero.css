@@ -1,0 +1,56 @@
+#design {
+    background-image: url("../assets/portfolio/HERO.png");
+    background-size: cover;
+    background-position: 80% 50%;
+    background-repeat: no-repeat;
+    height: 300px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items:flex-start;
+    transition: filter 0.5s;
+}
+
+#design h1 {
+    color: black;
+    /* background-color: rgba(255, 255, 255, 0.782); */
+    /* position: absolute;
+    top: 10px;
+    left: 20px; */
+    font-size: 40px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+#content {
+    margin: 20px;
+    padding: 10px;
+   
+}
+#content h2 {
+    border-bottom: 2px solid rgb(34, 71, 144);
+    padding: 10px;
+}
+
+#design2 {
+    background-image: url("../assets/portfolio/hero1.jpg");
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    color:white;
+    text-align: center;
+    height: 100vh;
+    transition: filter 0.5s;
+  }
+
+  
+#design2:hover {
+    filter: contrast(150%);
+}
+  
+#design2 h2 {
+    padding-top: 50%;
+  }
+  
+  #hero3 h3{
+    padding-bottom: 50%;
+  }

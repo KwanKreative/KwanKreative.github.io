@@ -1,0 +1,80 @@
+body{
+    margin: 0;
+}
+ /* cover : top left doesn't move
+  // contain _being repeat //  background-repeat: no-repeat
+  background-position: center center >> both veri hori center
+  absolute come with relative
+  */
+#hero1 {
+    background-image: url("../assets/images/shrimp-HERO.jpg");
+    background-size: cover;
+    background-position: 50% 30%;
+    background-repeat: no-repeat;
+    height: 500px;
+    position: relative;
+    /* display: flex;
+    justify-content: flex-start;
+    align-items: flex-start; */
+    transition: filter 0.5s;
+}
+
+#hero1:hover {
+    filter: contrast(150%);
+}
+
+#hero1 h1 {
+    color: white;
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    font-size: 40px;
+    font-family:fantasy;
+}
+
+p{
+    font-size: 32px;
+    margin: 48px;
+}
+
+#hero2 {
+    color: white;
+    height: 100vh;
+    background-image: url("../assets/images/yum.gif");
+    background-size: cover;
+    background-position: center center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#hero2 h2,
+#hero3 h2 {
+    font-family: fantasy;
+    font-size: 60px;
+}
+
+#hero2 h3,
+#hero3 h3 {
+    font-family: fantasy;
+    font-size: 30px;
+}
+
+#hero3 {
+    background-image: url("../assets/images/S-gif.gif");
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    color: white;
+    text-align: center;
+
+}
+
+#hero3 h2 {
+    padding-top: 60px;
+}
+
+#hero3 h3{
+    padding-bottom: 60px;
+}
