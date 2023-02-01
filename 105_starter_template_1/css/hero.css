@@ -38,19 +38,27 @@
     background-attachment: fixed;
     color:white;
     text-align: center;
-    height: 100vh;
+    height: 500px;
     transition: filter 0.5s;
-  }
+}
 
   
 #design2:hover {
     filter: contrast(150%);
 }
+
+
   
 #design2 h2 {
-    padding-top: 50%;
+    padding-top: 30%;
   }
   
-  #hero3 h3{
-    padding-bottom: 50%;
-  }
+#hero3 h3{
+    padding-bottom: 30%;
+}
+
+.glider {
+    background-image: url("../assets/portfolio/hero1.jpg");
+    background-attachment: fixed;
+    height: 200px;
+}
