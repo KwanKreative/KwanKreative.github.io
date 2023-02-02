@@ -64,13 +64,30 @@
     height: 300px;
 }
 
-.head {
-    padding: 60px;
-    font-size: 40px;
+.head,
+.levelText {
+    padding: 10px;
+    font-size: 30px;
     font-weight: bold;
     text-align: center;
-    color: rgb(22, 100, 216);
-    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+    color: rgb(224, 149, 9);
+    text-shadow: 0 1px 2px rgba(0, 0, 0, 0.612);
     
 }
 
+.stripedLevel {
+    padding: 20px;
+}
+
+.progress {
+    margin: 30px;
+}
+
+.striesText {
+    margin-left: 20px;
+    font-weight: bold;
+}
+
+.selfCard {
+    margin: 30px;
+}
