@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head> 
+        <meta charset="UTF-8"> 
+        <meta http-equiv="X-UA-Compatible" content="IE=edge"> 
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+        <title> Web Portal</title>
+        <!-- This is the link to use Booststrap -->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+        <link href="css/Style.css" rel="stylesheet">
+    </head>
+    <body>
+        <header id="hero" class="mb-5"> 
+            <h1> GRAPHIC DESIGN AND WEB DEPELOMENT</h1>
+        </header>
+    <!-- -----carousel here---- -->
+        <section id="carousel">
+            <div id="carouselExample" class="carousel slide">
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <img src="../105_starter_template_1/assets/portfolio/Book-01.png" 
+                       class="d-block w-100" alt="Book">
+                </div>
+    
+                <div class="carousel-item">
+                  <img src="../105_starter_template_1/assets/portfolio/Poster-01.png" 
+                       class="d-block w-100" alt="Poster">
+                </div>
+    
+                <div class="carousel-item">
+                  <img src="../105_starter_template_1/assets/portfolio/Product-01.png" 
+                       class="d-block w-100" alt="Product">
+                </div>
+              </div>
+              
+              <button 
+                class="carousel-control-prev" 
+                type="button" 
+                data-bs-target="#carouselExample"  
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+              </button>
+              <button 
+                class="carousel-control-next" 
+                type="button" 
+                data-bs-target="#carouselExample" 
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+              </button>
+            </div>
+            
+           </section>
+        <!-- ---- Project---- -->
+        <div class="accordion" id="accordionExample">
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="headingOne">
+                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                  Project
+                </button>
+              </h2>
+              <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                  <ul>
+                    <li><a href="thaiCurryWikipedia"> Wikipedia</a></li>
+                    <li><a href="responsiveNavBar"> Navbar</a></li>
+                    <li><a href="contactForm"> Contact Form</a></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <!-- ---- Exercises---- -->
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="headingTwo">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                  Exercises
+                </button>
+              </h2>
+              <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                    <div class="card-group">
+                        <div class="card">
+                          <img src="assests/images/Exercise1-02.png" class="card-img-top" alt="...">
+                          <div class="card-body text-center">
+                            <a class="btn btn-primary" href="fbForm"> Facebook Form </a>
+                          </div>
+                        </div>
+
+                        <div class="card">
+                          <img src="assests/images/Exercise2-02.png" class="card-img-top" alt="...">
+                          <div class="card-body text-center">
+                            <a class="btn btn-primary" href="fiveGalleries"> Gallery </a>
+                          </div>
+                        </div>
+
+                        <div class="card">
+                            <img src="assests/images/Exercise3-02.png" class="card-img-top" alt="...">
+                            <div class="card-body text-center">
+                              <a class="btn btn-primary" href="htmlTables"> Table </a>
+                            </div>
+                          </div>
+                      </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- ---- Excercises---- -->
+
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="headingThree">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                  Examples
+                </button>
+              </h2>
+
+              <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                    <div class="list-group">
+                        <a href="Example/hero.html" class="list-group-item list-group-item-action" aria-current="true">
+                          Hero Example
+                        </a>
+                        <a href="Example/grid.html" class="list-group-item list-group-item-action"> Grid Example</a>
+                        <a href="Example/feb/index.html" class="list-group-item list-group-item-action"> Calendar Example </a>
+                        <a href="mrLek/" class="list-group-item list-group-item-action">Business site Example</a>
+                        <a href="boxModel/" class="list-group-item list-group-item-action"> Box model</a>
+                      </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+
+        
+    
+        <!-- This is the script to use Booststrap -->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+    </body>
+</html>
