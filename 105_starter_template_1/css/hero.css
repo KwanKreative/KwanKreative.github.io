@@ -91,3 +91,11 @@
 .selfCard {
     margin: 30px;
 }
+
+figure {
+    float: left;
+}
+
+figure img {
+    width: 30%;
+}
