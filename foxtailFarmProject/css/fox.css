@@ -237,6 +237,10 @@ footer #home img {
     position:absolute;
   }
 
+#nameproduct {
+    color: #FAAB75;
+}
+
 
 @media screen and (max-width: 768px) {
     nav > ul {
