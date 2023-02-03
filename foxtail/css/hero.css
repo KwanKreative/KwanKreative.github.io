@@ -1,0 +1,101 @@
+#design {
+    background-image: url("../assets/portfolio/HERO.png");
+    background-size: cover;
+    background-position: 80% 50%;
+    background-repeat: no-repeat;
+    height: 300px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items:flex-start;
+    transition: filter 0.5s;
+}
+
+#design h1 {
+    color: black;
+    /* background-color: rgba(255, 255, 255, 0.782); */
+    /* position: absolute;
+    top: 10px;
+    left: 20px; */
+    font-size: 40px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+#content {
+    margin: 20px;
+    padding: 10px;
+   
+}
+#content h2 {
+    border-bottom: 2px solid rgb(34, 71, 144);
+    padding: 10px;
+}
+
+#design2 {
+    background-image: url("../assets/portfolio/hero1.jpg");
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    color:white;
+    text-align: center;
+    height: 500px;
+    transition: filter 0.5s;
+}
+
+  
+#design2:hover {
+    filter: contrast(150%);
+}
+
+
+  
+#design2 h2 {
+    padding-top: 30%;
+  }
+  
+#hero3 h3{
+    padding-bottom: 30%;
+}
+
+.glider {
+    background-image: url("../assets/portfolio/gif.gif");
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    height: 300px;
+}
+
+.head,
+.levelText {
+    padding: 10px;
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+    color: rgb(224, 149, 9);
+    text-shadow: 0 1px 2px rgba(0, 0, 0, 0.612);
+    
+}
+
+.stripedLevel {
+    padding: 20px;
+}
+
+.progress {
+    margin: 30px;
+}
+
+.striesText {
+    margin-left: 20px;
+    font-weight: bold;
+}
+
+.selfCard {
+    margin: 30px;
+}
+
+figure {
+    float: left;
+}
+
+figure img {
+    width: 40%;
+}
