@@ -1,9 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+a {
+    color: #de5c05;
+  }
 
 body{
     margin: 0px;
     background-color: #000000;
     color: #e1a177;
+    font-family: 'Lobster', cursive;
 }
 
 #button {
@@ -47,7 +51,7 @@ body{
 }
 
 .dropdown ul li{
-    background-color: #e1a177;
+    background-color: #1e1c1b;
     padding: 10px;
 }
 
@@ -58,12 +62,12 @@ body{
 }
 
 .dropdown ul li a:hover {
-    background-color: #e1a177;
+    background-color: #d5d0cc32;
 }
 
 
 nav img {
-    height: 80px;
+    height: 200px;
 }
 
 header #toppic {
@@ -174,7 +178,7 @@ footer #home img {
 .heroA {
     /* background-image: url("../assets/images/BG-01.png"); */
     /* background-color: #e1a177; */
-    height: 500px;
+    height: 700px;
     background-repeat: no-repeat;
     background-size: cover;
     /* position: relative; */
@@ -192,7 +196,7 @@ footer #home img {
 .heroB {
     /* background-image: url("../assets/images/BG-01.png"); */
     /* background-color: #e1a177; */
-    height: 500px;
+    height: 700px;
     background-repeat: no-repeat;
     background-size: cover;
     /* position: relative; */
@@ -253,8 +257,23 @@ footer #home img {
     color: #FAAB75;
 }
 
+.head {
+    padding: 50px;
+}
 
+.head1 {
+    padding: 50px;
+    color:#000000;
+    text-align: center;
+}
 
+.carouselExampleIndicators {
+    padding: 20px;
+}
+
+.gallerybutton {
+    text-align: center;
+}
 @media screen and (max-width: 768px) {
     nav > ul {
         flex-direction: column;
@@ -283,9 +302,9 @@ footer #home img {
         order: 1;
     }
 
-    .product {
+    /* .product {
         flex-direction: column;
         align-items: center;
-    }
+    } */
 
 }
