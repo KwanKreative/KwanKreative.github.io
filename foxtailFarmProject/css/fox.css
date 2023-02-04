@@ -21,8 +21,9 @@ body{
 }
 
 .head {
-    font-size: 48px;
+    font-size: 50px;
     text-align: center;
+    text-shadow: 2px 5px 5px #53514f;
 }
 .dropdown{
     position: relative;
@@ -260,14 +261,14 @@ footer #home img {
     color: #FAAB75;
 }
 
-.head {
-    padding: 50px;
-}
+
 
 .head1 {
     padding: 50px;
     color:#000000;
     text-align: center;
+    text-shadow: 2px 5px 5px #d7d4d1;
+ 
 }
 
 .carouselExampleIndicators {
@@ -291,21 +292,58 @@ footer #home img {
   
 }
 
+.heading {
+    padding: 20px;
+    color: white;
+
+}
 
 
 #toppic {
     padding: 10px;
     margin-top: 20px;
     width:100%;
-    max-height: 300px;
+    max-height: 400px;
     object-fit: cover;
-    object-position: 50% 50%;
+    /* object-position: 50% 50%; */
 }
 
 h1 {
     text-align: center;
 }
+
+.animate-charcter
+{
+   text-transform: uppercase;
+  background-image: linear-gradient(
+    -225deg,
+    #231557 0%,
+    #44107a 29%,
+    #ff1361 67%,
+    #fff800 100%
+  );
+  background-size: auto auto;
+  background-clip: border-box;
+  background-size: 200% auto;
+  color: #fff;
+  background-clip: text;
+  text-fill-color: transparent;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: textclip 2s linear infinite;
+  display: inline-block;
+      font-size: 190px;
+}
+
+@keyframes textclip {
+  to {
+    background-position: 200% center;
+  }
+}
+
 @media screen and (max-width: 768px) {
+   
+
     nav > ul {
         flex-direction: column;
         align-items: center;
@@ -320,8 +358,9 @@ h1 {
         margin-right: inherit;
     }
 
-    .heroA,
-    .heroB,
+    /* .heroA,
+    .heroB, */
+    main,
     #carouselExampleIndicators .carousel slide,
     .container,
     footer{
