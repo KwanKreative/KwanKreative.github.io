@@ -275,7 +275,7 @@ footer #home img {
     text-align: center;
 }
 
-.card:hover {
+.card:hover{
     background-color: #f4511e;
     border: none;
     color: white;
@@ -288,13 +288,35 @@ footer #home img {
   
 }
 
-.mask2 {
+.mask2{
     border-radius: 30px;
     float: left;
     -webkit-mask-image: radial-gradient(circle, black 50%, rgba(0, 0, 0, 0.5) 50%);
     mask-image: radial-gradient(circle, black 50%, rgba(0, 0, 0, 0.5) 50%);
   }
 
+  .textAndimage {
+    align-items: center;
+    display: flex;
+    margin: 24px auto;
+    object-fit: cover;
+    max-width: 800px;
+}
+
+.textAndimage .imageBlock{
+    flex: 1;
+}
+
+.textAndimage .textBlock {
+    flex: 2;
+    margin: 10px;
+}
+
+.textAndimage .imageBlock img {
+    width: 100%;
+    border-radius: 25px;
+
+}
 
 @media screen and (max-width: 768px) {
     nav > ul {
@@ -309,6 +331,19 @@ footer #home img {
 
     #home {
         margin-right: inherit;
+    }
+
+    .textAndimage {
+        flex-direction: column;
+    }
+
+    .imageBlock,
+    .textBlock, {
+        order:2;
+    }
+
+    .textAndimage .imageBlock:last-child{
+        order: 1;
     }
 
     .heroA,
