@@ -358,8 +358,7 @@ h1 {
         margin-right: inherit;
     }
 
-    /* .heroA,
-    .heroB, */
+    
     main,
     #carouselExampleIndicators .carousel slide,
     .container,
@@ -368,4 +367,5 @@ h1 {
         align-items: center;
     }
 
+    
 }
