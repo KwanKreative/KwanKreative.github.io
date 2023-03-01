@@ -1,11 +1,55 @@
 body {
     margin: 0;
-    background-color:aquamarine
+    /* background-image: linear-gradient(rgba(239, 134, 93, 0.209), rgba(255, 255, 0, 0.5)), 
+    url("../assets/images/happy-birthday-gc3c520d3c_1280.jpg");
+    background-position: center;
+    background-repeat: no-repeat; */
+    background: linear-gradient(#00bbff, #000000);
+    
 }
 
 #hero {
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     height: 100vh;
+    Color: white;
 }
+
+img {
+    
+    border-radius: 4px;
+    padding: 5px;
+    width: 300px;
+  }
+
+#hero .date {
+    padding: 30px;
+}
+
+.spinner {
+    
+    background-image: linear-gradient(rgb(186, 66, 255) 35%,rgb(0, 225, 255));
+    width: 100px;
+    height: 100px;
+    animation: spinning82341 1.7s linear infinite;
+    text-align: center;
+    border-radius: 50px;
+    filter: blur(1px);
+    box-shadow: 0px -5px 20px 0px rgb(186, 66, 255), 0px 5px 20px 0px rgb(0, 225, 255);
+  }
+  
+  .spinner1 {
+    background-color: rgb(36, 36, 36);
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+    filter: blur(10px);
+  }
+  
+  @keyframes spinning82341 {
+    to {
+      transform: rotate(360deg);
+    }
+  }
