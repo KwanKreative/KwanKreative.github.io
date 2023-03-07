@@ -35,8 +35,13 @@ nav > ul {
     width:auto;
     list-style-type: none;
 	align-items: center;
+    list-style-type: none;
+    color: white;
+    
 }
-
+.nav ul li:first-child {
+    margin-right: auto; 
+}
 
 .nav > li:nth-child,
 .nav > li:nth-last-child {
@@ -48,16 +53,81 @@ nav > ul {
     height: 50px;
 }
 
-nav > ul > li {
-    padding: 12px;
-    transition: background-color 0.5s;
-}
 
-#language {
+
+.language  {
+    text-decoration: none;
+    color:white;
+    text-align: center;
+    padding: 10px;
     border: solid 1px white;
     background-color: rgba(79, 78, 77, 0.516);
     padding: 10px 30px;
-    color:rgb(255, 255, 255);
+}
+
+.nav > ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style-type: none;
+    padding: 0px;
+    font-weight: bold;
+}
+
+ .language > ul > li:hover {
+    background-color:#17161630;
+    color:white;  
+}
+
+
+.language > ul > li {
+    padding: 12px;
+    transition: background-color 0.5s;
+    list-style-type: none;
+}
+
+
+.language{
+    position: relative;
+}
+
+.language ul{ 
+    /* display: flex; */
+    flex-direction: column;
+    list-style-type: none;
+    padding:0px;
+    position: absolute;
+    left: 0px;
+    top: 75%;
+    opacity: 0;
+    visibility: hidden;
+    transition:
+        opacity 0.5s, 
+        visibility 0.5s,
+        top 0.5s;
+    color:white;
+}
+
+.language:hover ul{
+    opacity: 1;
+    visibility: visible;
+    top: 100%;
+}
+
+.language ul li{
+    background-color: #17161630;
+    padding: 10px;
+}
+
+.language ul li a {
+    display: inline-block;
+    padding: 10px;
+    width: 150px;
+}
+
+.language ul li a:hover {
+    background-color: rgba(113, 112, 111, 0.776);
+    color:white;
 }
 
 #sign {
