@@ -15,10 +15,12 @@ body {
     background-color: red;
     padding: 10px;
     border-radius: 15px;
+    margin: 10px;
 }
 
 #learn a {
     color:blue;
+    margin: 10px;
 
 }
 nav > ul {
