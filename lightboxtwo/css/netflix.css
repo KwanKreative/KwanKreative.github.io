@@ -32,10 +32,8 @@ nav > ul {
 .nav > ul {
     display: flex;
     justify-content: space-between;
-    
     list-style-type: none;
    
-    font-weight: bold;
 }
 
 
@@ -77,4 +75,22 @@ nav > ul > li {
 .hero-text {
     color: white;
     text-align: center;
+}
+
+#form {
+    width: 70%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+}
+
+#button {
+    background-color: red;
+    border: none;
+    color: white;
+    padding: 12px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
 }
