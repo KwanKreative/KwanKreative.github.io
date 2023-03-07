@@ -1,0 +1,80 @@
+
+#header {
+    background-color: white;
+    background-size: 500px;
+}
+
+
+body {
+    background-color: rgb(255, 255, 255) ;
+}
+
+#new {
+    color: rgb(255, 255, 255);
+    background-color: red;
+    padding: 10px;
+    border-radius: 15px;
+}
+
+#learn a {
+    color:blue;
+
+}
+nav > ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style-type: none;
+    padding: 0px;
+    font-weight: bold;
+}
+
+.nav > ul {
+    display: flex;
+    justify-content: space-between;
+    
+    list-style-type: none;
+   
+    font-weight: bold;
+}
+
+
+.nav img {
+    height: 50px;
+}
+
+nav > ul > li {
+    padding: 12px;
+    transition: background-color 0.5s;
+}
+
+#language {
+    border: solid 1px white;
+    background-color: rgba(79, 78, 77, 0.171);
+    padding: 10px 10px 5px 5px;
+}
+
+#sign {
+    background-color: red;
+    color: white;
+    padding: 10px 10px 5px 5px;
+}
+.hero-image {
+    background-image: url("..//images/bgnex.jpg");
+    background-color: #1c0b0038;
+    height: 500px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* position: relative; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-position: center, center;
+    background-attachment: fixed;
+    opacity: 0.9;
+}
+
+.hero-text {
+    color: white;
+    text-align: center;
+}
