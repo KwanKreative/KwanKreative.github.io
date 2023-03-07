@@ -32,9 +32,15 @@ nav > ul {
 
 .nav > ul {
     display: flex;
-    justify-content: space-between;
+    width:auto;
     list-style-type: none;
-   
+	align-items: center;
+}
+
+
+.nav > li:nth-child,
+.nav > li:nth-last-child {
+	justify-self: end;
 }
 
 
@@ -65,28 +71,38 @@ nav > ul > li {
     background-repeat: no-repeat;
     background-size: cover;
     /* position: relative; */
-    display: flex;
+    /* display: flex;
     justify-content: center;
     align-items: center;
     background-position: center, center;
-    background-attachment: fixed;
+    background-attachment: fixed; */
     opacity: 0.9;
 }
 
-.hero-text {
+.hero-text{
     color: white;
     text-align: center;
+    justify-content: center;
+    align-items: center;
 }
 
 .hero-text h1{
     font-size: 50px;
 }
 
+
 #form {
     width: 70%;
     padding: 12px 20px;
     margin: 8px 0;
-    box-sizing: border-box;
+    box-sizing: border-box;  
+}
+
+#mainform {
+    color: white;
+    display: flex;
+    justify-content: center;
+    
 }
 
 #button {
