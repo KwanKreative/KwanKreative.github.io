@@ -8,7 +8,6 @@
 body {
     background-color: rgb(255, 255, 255) ;
     font-family:  Netflix Sans,Helvetica Neue,Segoe UI,Roboto,Ubuntu,sans-serif;
-    font-weight: bold;
 }
 
 #new {
@@ -154,7 +153,8 @@ nav > ul {
     opacity: 0.9;
 }
 
-.hero-text{
+.hero-text,
+#text {
     color: white;
     text-align: center;
     justify-content: center;
@@ -162,7 +162,7 @@ nav > ul {
 }
 
 .hero-text h1{
-    font-size: 50px;
+    font-size: 70px;
 }
 
 
