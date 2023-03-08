@@ -24,3 +24,29 @@ function animate() {
 }
 
 setInterval(animate, 100);
+
+
+let bunnyframes = [
+    "assets/images/run1.png",
+    "assets/images/run2.png",
+    "assets/images/run3.png",
+    "assets/images/run4.png",
+    "assets/images/run5.png",
+    "assets/images/run6.png",
+    "assets/images/run7.png",
+    "assets/images/run8.png"
+    
+];
+
+const run = document.getElementById("run");
+
+let bunnyframeIndex = 0;
+function animatebunny() {
+    run.src = bunnyframes[bunnyframeIndex];
+    bunnyframeIndex++;
+    if (bunnyframeIndex >= bunnyframes.length) {
+        bunnyframeIndex = 0;
+    }
+}
+
+setInterval(animatebunny, 100);
