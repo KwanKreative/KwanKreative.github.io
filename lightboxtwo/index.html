@@ -9,22 +9,16 @@
     rel="stylesheet" 
     href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 <link
-
-
    
   </head>
   <body>
   <!-- Netflix -->
-  <div id="header">
-    
+  
+  <div id="header"> 
     <header>
-      <nav>
-          <ul>
-              <li id="new"> NEW! </li>
-              <li>  Plans now start at $6.99 </li>
-              <li id="learn"><a href="#"> Learn More > </a></li>
-          </ul>   
-      </nav>
+      <div id="new"> NEW! </div>
+      <div>  Plans now start at <span id="price"> $6.99 </span> </div>
+      <div id="learn"><a href="#"> Learn More > </a></div>
   </div>
 
 
@@ -35,7 +29,7 @@
         <li> 
          <img src="images/Netflix_Logo_PMS.png"></a>
         </li>
-          <!-- <li id="language"> <i class="fa-solid fa-globe"> English </i> </li> -->
+          
           <li class="language">
             <a><i class="fa-solid fa-globe"></i> English <i class="fa-solid fa-caret-down"></i></a>
             <ul>
@@ -45,32 +39,31 @@
           <li id="sign"> Sign in </li>
       </ul>   
     </div>
+    <div id="main">
+      <div class="hero-text">
+        <h1> Unlimited movies, TV shows, and more. </h1>
+        <h3> Watch anywhere. Cancel anytime.</h3> 
+        <p>Ready to watch? Enter your email to create or restart your membership.</p>
+    
+        <form 
+            action="https://getform.io/f/0ef40a3e-d820-46a3-ab87-c93a41b537f5"
+            method="POST">
+            
+            <input id="form"
+            type="email" 
+            name="email"
+            placeholder="E-mail Address"
+            minlength="2"
+            maxlength="30"
+            required>
 
-    <div class="hero-text">
-      <h1> Unlimited movies, TV shows, and more. </h1>
-      <h2> Watch anywhere. Cancel anytime.</h2> 
+            <input id="button" type="submit" name="send" value="Get Started >">   
+        </form> 
+        <div id="text"> <p> *For educational purposes only</p> </div>
+      </div>
     </div>
-      
-    <div id="mainform">
-      <form 
-          action="https://getform.io/f/0ef40a3e-d820-46a3-ab87-c93a41b537f5"
-          method="POST">
-          <p>Ready to watch? Enter your email to create or restart your membership.</p>
-          <input id="form"
-          type="email" 
-          name="email"
-          placeholder="E-mail address"
-          minlength="2"
-          maxlength="30"
-          required>
-
-          <button id="button" type="submit" name="send" value="Submit">
-            Get Started >
-          </button>   
-      </form>
-    </div>
-    <div id="text"> <p> *For educational purposes only</p> </div>
-  </div>
+  
+</div>
 
   
     <!-- Gallery/Image Code -->
