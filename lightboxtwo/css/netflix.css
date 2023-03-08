@@ -1,13 +1,24 @@
 
 #header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     background-color: white;
     background-size: 500px;
 }
 
+#header div {
+    display: inline-block;
+    margin: 12px;
+}
+
+
 
 body {
     background-color: rgb(255, 255, 255) ;
-    font-family:  Netflix Sans,Helvetica Neue,Segoe UI,Roboto,Ubuntu,sans-serif;
+    font-family: sans-serif;
+    font-size: 18px;
+    margin: 0px;
 }
 
 #new {
@@ -18,9 +29,14 @@ body {
     margin: 10px;
 }
 
+#price {
+    font-weight: bold;
+    font-size: 24px;
+}
 #learn a {
     color:blue;
     margin: 10px;
+    text-decoration: none;
 
 }
 nav > ul {
@@ -52,7 +68,8 @@ nav > ul {
 
 
 .nav img {
-    height: 50px;
+    width: 150px;
+    margin-right: auto;
 }
 
 
@@ -61,10 +78,10 @@ nav > ul {
     text-decoration: none;
     color:white;
     text-align: center;
-    padding: 10px;
     border: solid 1px white;
+    border-radius: 2px;
     background-color: rgba(79, 78, 77, 0.516);
-    padding: 10px 30px;
+    padding: 10px 10px;
 }
 
 .nav > ul {
@@ -134,14 +151,18 @@ nav > ul {
 
 #sign {
     background-color: red;
+    border-radius: 4px;
     color: white;
     padding: 10px 30px;
     margin: 20px;
 }
 .hero-image {
-    background-image: url("..//images/bgnex.jpg");
+    background-image:
+     radial-gradient(transparent 25%, black),
+     url("..//images/bgnex.jpg");
+
     background-color: #1c0b0038;
-    height: 500px;
+    min-height: 500px;
     background-repeat: no-repeat;
     background-size: cover;
     /* position: relative; */
@@ -153,13 +174,15 @@ nav > ul {
     opacity: 0.9;
 }
 
-.hero-text,
-#text {
+.hero-text{
     color: white;
     text-align: center;
     justify-content: center;
     align-items: center;
+   
 }
+
+
 
 .hero-text h1{
     font-size: 50px;
@@ -168,25 +191,27 @@ nav > ul {
 
 #form {
     width: 70%;
-    padding: 12px 20px;
-    margin: 8px 0;
-    box-sizing: border-box;  
+    height: 60px;
+    padding: 12px 24px;
+    font-size: 20px;
+    border: none;
 }
 
-#mainform {
-    color: white;
-    display: flex;
-    justify-content: center;
-    
-}
 
 #button {
-    background-color: red;
+
     border: none;
+    background-color: red;
     color: white;
-    padding: 12px 20px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 16px;
+    font-size: 20px;
+    height: 60px;
+    padding: 12px 24px;
+}
+
+#main {
+    max-width: 640px;
+    justify-content: center;
+    align-items: center;
+    margin: 100px auto;
+
 }
