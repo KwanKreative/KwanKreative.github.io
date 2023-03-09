@@ -220,3 +220,49 @@ nav > ul {
 #text {
     color: white;
 }
+
+footer {
+    background-color: black;
+    background-size: 5000px;
+    color: white;
+    padding: 50px;
+
+}
+
+#call {
+    display: flex;
+    justify-content: start;
+
+}
+
+  ul {
+    list-style: none;
+    padding-left: 0;
+  }
+  footer {
+    background-color: #000000;
+    color: #b2acac;
+    line-height: 2;
+    font-size: 12px;
+  }
+  footer a {
+    text-decoration: none;
+    color: #ffffff;
+  }
+  a:hover {
+    text-decoration: underline;
+  }
+  
+
+  /* Footer main */
+  .ft-main {
+    padding: 20px 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+  }
+
+ .ft-main-item li {
+    padding:5px;
+ }
+
