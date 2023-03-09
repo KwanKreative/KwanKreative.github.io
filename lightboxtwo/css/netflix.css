@@ -247,7 +247,7 @@ footer {
   }
   footer a {
     text-decoration: none;
-    color: #ffffff;
+    color: #a19d9d;
   }
   a:hover {
     text-decoration: underline;
@@ -266,3 +266,8 @@ footer {
     padding:5px;
  }
 
+ footer p {
+    display: flex;
+    justify-content: start;
+    padding: 20px 20px;
+ }
