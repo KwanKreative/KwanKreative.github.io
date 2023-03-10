@@ -32,4 +32,4 @@ function showGrid(){
     grid.style.display = "";
 }
 
-gridLinkonclick = showGrid;
+gridLink.onclick = showGrid;
