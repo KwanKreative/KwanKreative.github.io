@@ -99,6 +99,7 @@
     /* grid-template-columns: 1fr 1fr 1fr; */
     grid-template-columns: repeat(3, 1fr);
     /* note = (3, 1fr) >> this 1fr column 3 times */
+    width: calc(33.33% - 12px*2);
 }
 
 .box {
@@ -112,7 +113,6 @@
 #flexbox3,
 #flexbox2
 {
-    /* border: 3px dotted blue; */
     display: grid;
 }
 
@@ -159,6 +159,44 @@
 
 }
 
-#footer-main img {
-    height: 80px;
+#footer-logo img {
+    height: 60px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+#footer-logo  {
+    display: flex;
+    justify-content: center;
+    background-color: #13151d;
+}
+
+
+@media screen and (max-width: 480px) {
+    /* decrease font sizes */
+    body {
+        background-color: red;;
+    }
+    #heroContent h1 {
+        font-size: 48px;
+    }
+    /* stack side-by-side content */
+    /* (flexbox makes this easy with flex-direction:column) */
+    #banner,
+    .footer-text{
+        flex-direction: column;
+    }
+    /* resize content that overflows or overlaps */
+    #heroContent input[type="email"] {
+        width: 100%;
+    }
+
+    #grid img,
+    #flexbox3 img,
+    #flexbox2 img{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 10px;
+    }
 }
