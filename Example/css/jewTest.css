@@ -10,17 +10,127 @@
 
 .nav > ul {
     display: flex;
-    width:auto;
-    list-style-type: none;
-	align-items: center;
+    justify-content: space-between;
+    align-items: center;
     list-style-type: none;
     color: rgb(0, 0, 0);
-    justify-content: space-evenly;
-    
 }
 
+.nav > ul #third{
+    justify-content: flex-end;
+   
+}
 
 .nav img {
     width: 150px;
-    margin-right: auto;
+   
 }
+
+
+.nav2  ul {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    list-style-type: none;
+    color: rgb(0, 0, 0);
+}
+
+#hero {
+    background-image: 
+        url("../assets/images/S-gif.gif");
+    min-height: 300px;
+    /* box-shadow: inset 0px 0px 100px 75px black; */
+    padding: 48px;
+}
+
+#heroContent {
+    text-align: center;
+    max-width: 640px;
+    margin: 100px auto;
+    color: white;
+}
+
+#gallery {
+    display: flex;
+    flex-wrap: wrap;
+    width: 1000px;
+    max-width: 100%;
+    margin: 0 auto;
+  }
+
+  #gallery img {
+    height: 300px;
+    margin: 12px;
+    flex: 1 0 auto;
+    object-fit: cover;
+    opacity: 0.8;
+    transition: opacity 0.25s, transform 0.25s;
+  }
+
+  #gallery img:hover {
+    opacity: 1;
+    cursor: pointer;
+    transform: scale(1.05);
+  }
+
+  * {
+    box-sizing: border-box;
+  }
+
+  #lightboxContainer {
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    left: 0px;
+    top: 0px;
+    padding: 24px;
+    display: none;
+    justify-content: center;
+    align-items: center;
+  }
+
+  #lightboxContainer.display {
+    display: flex;
+  }
+
+  #gallery2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap:48px;
+  }
+  
+  #gallery2 img {
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+  }
+
+  .ft-main {
+    padding: 20px 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+  }
+
+ .ft-main-item li {
+    padding:5px;
+ }
+
+ footer p {
+    display: flex;
+    justify-content: start;
+    padding: 20px 20px;
+ }
+
+ footer #container {
+    max-width: 800px;
+    margin: 0px auto;
+ }
+
+  
+  @media screen and (max-width: 480px) {
+    #gallery img {
+      height: auto;
+      width: 100%;
+    }
+  }

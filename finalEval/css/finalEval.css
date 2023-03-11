@@ -1,0 +1,119 @@
+#banner {
+    background-color: #13151d;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#banner img {
+    width: 100px;
+    margin-right: auto;
+}
+
+.signupButton {
+    border: none;
+    background-color: #003fd2;
+    color: white;
+    padding: 12px 24px;
+    border-radius: 3px;
+    margin: 16px;
+    font-size: 16px;
+}
+
+.loginButton {
+    border: 1px solid white;
+    background-color: rgba(0,0,0,0.5);
+    color: white;
+    padding: 12px 24px;
+    border-radius: 2px;
+    margin: 16px;
+    font-size: 16px;
+}
+
+#hero {
+    background-image: 
+        radial-gradient(transparent 25%, black),
+        url("../assets/images/backgroundLarge.jpg");
+    min-height: 500px;
+    /* box-shadow: inset 0px 0px 100px 75px black; */
+    padding: 48px;
+}
+
+#heroContent {
+    text-align: center;
+    color: rgb(129, 127, 127);
+    /* max-width: 640px; */
+    /* margin: 100px auto; */
+}
+
+#heroContent input[type="email"] {
+    height: 40px;
+    width: 400px;
+    margin-bottom: 16;
+    background-color:rgb(103, 97, 97);
+    border: none;
+    border-radius: 3px;
+}
+
+#navLogo img,
+#navLogo2 img {
+    width: 500px;
+}
+
+#blueButton {
+    border: none;
+    background-color: #003fd2;
+    color: white;
+    padding: 12px 24px;
+    border-radius: 3px;
+    /* margin: 16px; */
+    font-size: 16px;
+    height: 40px;
+}
+
+#link a {
+    color: rgb(199, 198, 198);
+}
+
+#link {
+    padding: 50px;
+}
+
+#flexbox1.spreadRestricted {
+    justify-content: space-between;
+    max-width: 600px;
+    margin: 0px auto;
+}
+ 
+#bannerGallery {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 20px;
+    color: white;
+}
+
+#grid.threeColumns {
+    /* grid-template-columns: 1fr 1fr 1fr; */
+    grid-template-columns: repeat(3, 1fr);
+    /* note = (3, 1fr) >> this 1fr column 3 times */
+}
+
+.box {
+    border: none;
+    margin: 12px;
+    min-height: 200px;
+    min-width: 300px;
+}
+
+#grid {
+    /* border: 3px dotted blue; */
+    display: grid;
+}
+
+
+
+#grid img {
+    width: 100%;
+    border-radius: 5px;
+}
