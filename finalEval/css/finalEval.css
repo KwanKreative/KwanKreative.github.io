@@ -12,6 +12,7 @@ body {
 #banner img {
     width: 100px;
     margin-right: auto;
+    padding: 10px 10px 10px 40px;
 }
 
 .signupButton {
@@ -38,7 +39,7 @@ body {
     background-image: 
         radial-gradient(transparent 25%, black),
         url("../assets/images/backgroundLarge.jpg");
-    min-height: 500px;
+    min-height: 400px;
     /* box-shadow: inset 0px 0px 100px 75px black; */
     padding: 48px;
 }
@@ -139,6 +140,10 @@ body {
     align-items: center;
 }
 
+#bannerGallery a {
+    font-size: 20px;
+}
+
 
 /* ****** Footer ******* */
 .footer-text{
@@ -176,29 +181,17 @@ body {
 
 
 @media screen and (max-width: 480px) {
-    /* decrease font sizes */
+    
     body {
         background-color: red;;
     }
-    #heroContent h1 {
-        font-size: 48px;
-    }
-    /* stack side-by-side content */
-    /* (flexbox makes this easy with flex-direction:column) */
+   
     #banner,
     .footer-text{
         flex-direction: column;
     }
-    /* resize content that overflows or overlaps */
+   
     #heroContent input[type="email"] {
         width: 100%;
     }
 
-    /* #grid img,
-    #flexbox3 img,
-    #flexbox2 img{
-        display: grid;
-        grid-template-columns: repeat(3, 1fr);
-        gap: 10px;
-    } */
-}
