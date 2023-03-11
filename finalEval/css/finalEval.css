@@ -93,7 +93,9 @@
     color: white;
 }
 
-#grid.threeColumns {
+#grid.threeColumns,
+#flexbox3.threeColumns,
+#flexbox2.threeColumns {
     /* grid-template-columns: 1fr 1fr 1fr; */
     grid-template-columns: repeat(3, 1fr);
     /* note = (3, 1fr) >> this 1fr column 3 times */
@@ -106,14 +108,57 @@
     min-width: 300px;
 }
 
-#grid {
+#grid,
+#flexbox3,
+#flexbox2
+{
     /* border: 3px dotted blue; */
     display: grid;
 }
 
 
 
+#flexbox2 img,
+#flexbox3 img,
 #grid img {
     width: 100%;
     border-radius: 5px;
+}
+
+#mainGallery {
+    background-color: #13151d;
+    color: white;
+    padding: 20px;
+}
+
+#mainGallery a {
+    color: white;
+    text-decoration: none;
+    align-items: center;
+}
+
+
+/* ****** Footer ******* */
+.footer-text{
+    background-color: #13151d;
+    color:rgb(199, 198, 198);
+    display: flex;
+    justify-content: center;
+    align-items:center;
+}
+
+.footer-text p {
+    margin: 20px;
+}
+
+
+
+
+#footer-main {
+    background-color: #13151d;
+
+}
+
+#footer-main img {
+    height: 80px;
 }

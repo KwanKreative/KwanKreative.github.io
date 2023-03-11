@@ -1,102 +1,165 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head> 
-        <meta charset="UTF-8"> 
-        <meta http-equiv="X-UA-Compatible" content="IE=edge"> 
-        <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
-        <title> Final Eval </title>
-        <link href="css/finalEval.css" rel="stylesheet">
-    </head>
-    <body>
-    <!-- ****** Navbar on the top section ******* -->
-        <div id="banner"> 
-            <img
-                    src="assets/images/disneyPlusLogo.svg"
-                    alt="disneyPlus logo">
-                <button class="signupButton"> SIGN UP NOW </button>
-                <button class="loginButton"> LOG IN </button>
-        </div>
-    <!-- ****** Hero section ******* -->
+   <head>
+       <meta charset="UTF-8">
+       <meta http-equiv="X-UA-Compatible" content="IE=edge">
+       <meta name="viewport" content="width=device-width, initial-scale=1.0">
+       <title> Final Eval </title>
+       <link href="css/finalEval.css" rel="stylesheet">
+   </head>
+   <body>
+   <!-- ****** Navbar on the top section ******* -->
+       <div id="banner">
+           <img
+                   src="assets/images/disneyPlusLogo.svg"
+                   alt="disneyPlus logo">
+               <button class="signupButton"> SIGN UP NOW </button>
+               <button class="loginButton"> LOG IN </button>
+       </div>
+   <!-- ****** Hero section ******* -->
 
-        <div id="hero">
-            <div id="heroContent">
-                <div id="navLogo">
-                    <img
-                        src="assets/images/huluDisneyESPN.png"
-                        alt="huluDisneyESPN logo">
+
+       <div id="hero">
+           <div id="heroContent">
+               <div id="navLogo">
+                   <img
+                       src="assets/images/huluDisneyESPN.png"
+                       alt="huluDisneyESPN logo">
+               </div>
+               <p>Enter your email to create or restart your subscription.</p>
+               <form>  
+                   <input
+                       type="email"
+                       name="emailAddress"
+                       placeholder="Email">
+                    <input type="submit" id="blueButton" value="GET THE DISNEY BUNDLE">
+               </form>
+               <p> All of these and more now streaming. <span id="terms">Terms Apply</span> </p>
+               <div id="navLogo2">
+                   <img
+                       src="assets/images/disneyAndMore.png"
+                       alt="disneyAndMore logo">
+               </div>
+               <div id="link">
+                   <a href="#"> View All Plan Options </a>
+               </div>
+           </div>
+       </div>
+    
+    <div id="mainGallery"> 
+        <!-- ****** Gallery Nav ******* -->
+        <div id="bannerGallery">
+           <a href="#" id="heroLink"> TRENDING </a>
+           <a href="#" id="flexboxGridLink"> NEW ON DISNEY+</a>
+           <a href="#" id="gridLink"> COMING SOON </a> 
+       </div>
+        <!-- ****** Gallery1 ******* -->
+
+
+        <div id="flexbox2" class="threeColumns">
+                <div class="box">
+                    <img src="assets/images/wakandaForever.jpg">
                 </div>
-                <p>Enter your email to create or restart your subscription.</p>
-                <form>   
-                    <input 
-                        type="email" 
-                        name="emailAddress"
-                        placeholder="Email">
-                     <input type="submit" id="blueButton" value="GET THE DISNEY BUNDLE">
-                </form>
-                <p> All of these and more now streaming. <span id="terms">Terms Apply</span> </p>
-                <div id="navLogo2">
-                    <img
-                        src="assets/images/disneyAndMore.png"
-                        alt="disneyAndMore logo">
+                <div class="box">
+                    <img src="assets/images/andor.jpg">
                 </div>
-                <div id="link"> 
-                    <a href="#"> View All Plan Options </a>
+                <div class="box">
+                    <img src="assets/images/turningRed.jpg">
                 </div>
+                <div class="box">
+                    <img src="assets/images/fireOfLove.jpg">
+                </div>
+                <div class="box">
+                    <img src="assets/images/encanto.jpg">
+                </div>
+                <div class="box">
+                    <img src="assets/images/zootopiaPlus.jpg">
+                </div>
+        </div>
+
+
+        <!-- ****** Gallery2 ******* -->
+
+
+        <div id="flexbox3" class="threeColumns">
+                <div class="box">
+                    <img src="assets/images/wakandaForever.jpg">
+                </div>
+                <div class="box">
+                    <img src="assets/images/wakandaForever.jpg">
+                </div>
+                <div class="box">
+                    <img src="assets/images/wakandaForever.jpg">
+                </div>
+                <div class="box">
+                    <img src="assets/images/wakandaForever.jpg">
+                </div>
+                <div class="box">
+                    <img src="assets/images/wakandaForever.jpg">
+                </div>
+                <div class="box">
+                    <img src="assets/images/wakandaForever.jpg">
+                </div>
+        </div>
+
+        <div id="grid" class="threeColumns">
+            <div class="box">
+                <img src="assets/images/wakandaForever.jpg">
+            </div>
+            <div class="box">
+                <img src="assets/images/wakandaForever.jpg">
+            </div>
+            <div class="box">
+                <img src="assets/images/wakandaForever.jpg">
+            </div>
+            <div class="box">
+                <img src="assets/images/wakandaForever.jpg">
+            </div>
+            <div class="box">
+                <img src="assets/images/wakandaForever.jpg">
+            </div>
+            <div class="box">
+                <img src="assets/images/wakandaForever.jpg">
             </div>
         </div>
-         <!-- ****** Gallery Nav ******* -->
-         <div id="bannerGallery"> 
-            <a href="#" id="trendingLink"> TRENDING</a>
-            <a href="#" id="disneyLink"> New ON DISNEY+</a>
-            <a href="#" id="comingLink"> COMING SOON </a>  
-        </div>
-    <!-- ****** Gallery1 ******* -->
-
-    <div id="trending" class="threeColumns"> 
-        <img src="assets/images/wakandaForever.jpg" class="box green"> 
-        <img src="assets/images/wakandaForever.jpg" class="box green">
-        <img src="assets/images/wakandaForever.jpg" class="box green">
-        <img src="assets/images/wakandaForever.jpg" class="box green">
-        <img src="assets/images/wakandaForever.jpg" class="box green">
-        <img src="assets/images/wakandaForever.jpg" class="box green">
     </div>
-
-    <!-- ****** Gallery2 ******* -->
-
-    <div id="disney" class="threeColumns"> 
-        <img src="assets/images/zootopiaPlus.jpg" class="box green"> 
-        <img src="assets/images/wakandaForever.jpg" class="box green">
-        <img src="assets/images/wakandaForever.jpg" class="box green">
-        <img src="assets/images/wakandaForever.jpg" class="box green">
-        <img src="assets/images/wakandaForever.jpg" class="box green">
-        <img src="assets/images/wakandaForever.jpg" class="box green">
-    </div>
-
-    <!-- ****** Gallery3 ******* -->
+    <!-- ****** Footer******* -->
 
 
-    <div id="coming" class="threeColumns"> 
-        <div class="box"> 
-            <img src="assets/images/wakandaForever.jpg"> 
-        </div>
-        <div class="box"> 
-            <img src="assets/images/wakandaForever.jpg"> 
-        </div>
-        <div class="box"> 
-            <img src="assets/images/wakandaForever.jpg"> 
-        </div>
-        <div class="box"> 
-            <img src="assets/images/wakandaForever.jpg"> 
-        </div>
-        <div class="box"> 
-            <img src="assets/images/wakandaForever.jpg"> 
-        </div>
-        <div class="box"> 
-            <img src="assets/images/wakandaForever.jpg"> 
-        </div>
-        
-    </div>
-            
-    <script src="js/finalEval.js"></script>
-    </body>
+      
+   <div id="footer-main">
+      
+       <div class="footer-text">
+           <p><i class="fa-solid fa-globe"></i> English <i class="fa-solid fa-caret-down"></i></p>
+           <p> Subscriber Agreement </p>
+           <p> Privacy Policy </p>
+           <p> Your California Privacy Rights </p>
+           <p> Do Not Sell My Personal Information </p>
+           <p> Children's Online Privacy Policy </p>
+       </div>
+   </div>
+       <div class="footer-text">
+           <p> Closed Captioning </p>
+           <p> Interest-Based Ads</p>
+           <p> Supported Devices </p>
+           <p> Help </p>
+           <p> Gift Disney+ </p>
+           <p> About Us </p>
+           <p> Disney+ Partner Program </p>
+           <p> Disney Bundle </p>
+       </div>
+
+
+       <div class="footer-text">
+           <p> Content and platform availability may vary by region </p>
+       </div>
+
+
+       <div class="footer-text">
+           <p> Disney. All Rights Reserved. </p>
+       </div>
+      
+   <script src="js/finalEval.js"></script>
+   </body>
 </html>
+

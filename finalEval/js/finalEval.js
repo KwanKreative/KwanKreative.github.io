@@ -1,35 +1,35 @@
-const trending= document.getElementById("trending");
-const disney= document.getElementById("disney");
-const coming= document.getElementById("coming");
-const trendingLink = document.getElementById("trendingLink");
-const disneyLink = document.getElementById("disneyLink");
-const comingLink = document.getElementById("comingLink");
+const flexbox2 = document.getElementById("flexbox2");
+const flexbox3 = document.getElementById("flexbox3");
+const grid= document.getElementById("grid");
+const heroLink = document.getElementById("heroLink");
+const flexboxGridLink = document.getElementById("flexboxGridLink");
+const gridLink = document.getElementById("gridLink");
 
 function hideAll() {
-    // trending.style.display = "none";
-    disney.style.display = "none";
-    coming.style.display = "none";
+    // flexbox2.style.display = "none";
+    flexbox3.style.display = "none";
+    grid.style.display = "none";
 }
 
 hideAll();
 
-function showtrending(){
+function showHero(){
     hideAll();
-    trending.style.display = "";
+    flexbox2.style.display = "";
 }
 
-trendingLink.onclick = showtrending;
+heroLink.onclick = showHero;
 
-function showdisney(){
+function showFlexboxGrid(){
     hideAll();
-    disney.style.display = "";
+    flexbox3.style.display = "";
 }
 
-disneyLink.onclick = shownew;
+flexboxGridLink.onclick = showFlexboxGrid;
 
-function showcoming(){
+function showGrid(){
     hideAll();
-    coming.style.display = "";
+    grid.style.display = "";
 }
 
-comingLink.onclick = showcoming;
+gridLink.onclick = showGrid;
