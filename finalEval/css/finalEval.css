@@ -1,3 +1,7 @@
+body {
+    font-family: Avenir,sans-serif;
+}
+
 #banner {
     background-color: #13151d;
     display: flex;
@@ -101,16 +105,23 @@
     min-width: 300px;
 }
 
-#grid {
+#grid,
+#gridtwo,
+#gridthree {
     display: grid;
 }
 
-#grid img {
+#grid img,
+#gridtwo img,
+#gridthree img {
     width: 100%;
+    border-radius: 5px;
 }
 
 
-#grid.threeColumns {
+#grid.threeColumns,
+#gridtwo.threeColumns,
+#gridthree.threeColumns {
     grid-template-columns: 1fr 1fr 1fr;
     /* grid-template-columns: repeat(3, 1fr); */
 }

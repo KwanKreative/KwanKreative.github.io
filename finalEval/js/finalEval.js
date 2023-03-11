@@ -1,32 +1,46 @@
-const flexbox2 = document.getElementById("flexbox2");
-const flexbox3 = document.getElementById("flexbox3");
 const grid = document.getElementById("grid");
-const heroLink = document.getElementById("heroLink");
-const flexboxGridLink =
-    document.getElementById("flexboxGridLink");
+const gridtwo = document.getElementById("gridtwo");
+const gridthree = document.getElementById("gridthree");
 const gridLink = document.getElementById("gridLink");
+const gridtwoLink =
+    document.getElementById("gridtwoLink");
+const gridthreeLink = document.getElementById("gridthreeLink");
 
 function hideAll() {
-    flexbox2.style.display = "none";
-    flexbox3.style.display = "none";
-    grid.style.display = "none";
+    gridtwo.style.display = "none";
+    gridthree.style.display = "none";
 }
 hideAll();
 
-function showHero() {
-    hideAll();
-    flexbox2.style.display = "";
-}
-heroLink.onclick = showHero;
-
-function showFlexboxGrid() {
-    hideAll();
-    flexbox3.style.display = "";
-}
-flexboxGridLink.onclick = showFlexboxGrid;
-
-function showGrid() {
+function showgrid() {
     hideAll();
     grid.style.display = "";
 }
-gridLink.onclick = showGrid;
+
+gridLink = showgrid;
+
+
+function hideAll2() {
+    grid.style.display = "none";
+    gridthree.style.display = "none";
+}
+hideAll2();
+
+
+function showgridtwo() {
+    hideAll2();
+    gridtwo.style.display = "";
+}
+gridtwoLink.onclick = showgridtwo;
+
+function hideAll3() {
+    grid.style.display = "none";
+    gridtwo.style.display = "none";
+}
+hideAll3();
+
+function showgridthree() {
+    hideAll3();
+    gridthree.style.display = "";
+}
+gridthreeLink.onclick = showgridthree;
