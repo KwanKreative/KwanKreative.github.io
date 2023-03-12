@@ -45,6 +45,7 @@ body {
 }
 
 #heroContent {
+    align-items: center;
     text-align: center;
     color: rgb(129, 127, 127);
     /* max-width: 640px; */

@@ -7,8 +7,10 @@ const gridtwoLink =
 const gridthreeLink = document.getElementById("gridthreeLink");
 
 function hideAll() {
+    grid.style.display = "grid";
     gridtwo.style.display = "none";
     gridthree.style.display = "none";
+    
 }
 hideAll();
 
@@ -17,7 +19,7 @@ function showgrid() {
     grid.style.display = "";
 }
 
-gridLink = showgrid;
+gridLink.onclick = showgrid;
 
 
 function hideAll2() {
