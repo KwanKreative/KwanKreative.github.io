@@ -9,14 +9,13 @@ const gridthreeLink = document.getElementById("gridthreeLink");
 function hideAll() {
     grid.style.display = "grid";
     gridtwo.style.display = "none";
-    gridthree.style.display = "none";
-    
+    gridthree.style.display = "none";  
 }
 hideAll();
 
 function showgrid() {
     hideAll();
-    grid.style.display = "";
+    grid.style.display = "grid";
 }
 
 gridLink.onclick = showgrid;
@@ -26,12 +25,11 @@ function hideAll2() {
     grid.style.display = "none";
     gridthree.style.display = "none";
 }
-hideAll2();
 
 
 function showgridtwo() {
     hideAll2();
-    gridtwo.style.display = "";
+    gridtwo.style.display = "grid";
 }
 gridtwoLink.onclick = showgridtwo;
 
@@ -39,10 +37,9 @@ function hideAll3() {
     grid.style.display = "none";
     gridtwo.style.display = "none";
 }
-hideAll3();
 
 function showgridthree() {
     hideAll3();
-    gridthree.style.display = "";
+    gridthree.style.display = "grid";
 }
 gridthreeLink.onclick = showgridthree;
